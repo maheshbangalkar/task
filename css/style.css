@@ -1,0 +1,149 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-image: url(../images/bg2.jpg);
+	background-size: 100%;
+  background-size: auto;
+}
+
+.logo{
+  text-align: center;
+}
+
+h1{
+	text-align: center;
+	color: yellow;
+	padding: 20px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+label{
+  margin: 5px;
+	font-family: serif;
+  color: black;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+	font-size: 18px;
+	font-style: bold;
+  text-align: center;
+}
+
+input[type=text]:focus, input[type=email]:focus{  
+  background-color: skyblue;  
+  outline: none;  
+}
+
+#birthday{
+  width: 296px;
+  border: none;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+} 
+
+#name{
+	width: 296px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+
+#number{
+  width: 230px;
+  border: none;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+}
+
+#ph{
+	width: 62px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+
+#male, #female, #other{
+	width: 24px;
+}
+
+#submit{
+	  width: 160px;
+    background-color: green;
+    color: white;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    border-radius: 3px;
+}
+
+#reset{
+    width: 160px;
+    background-color: orange;
+    color: white;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    border-radius: 3px;
+}
+
+#college{
+	width: 308px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+
+#state{
+	width: 308px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+
+#district{
+	width: 308px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #ff4d4d;
+  padding: 20px;
+  margin-left : 250px;
+  margin-right: 250px;
+  margin-top: 25px;
+  margin-bottom: 250px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
